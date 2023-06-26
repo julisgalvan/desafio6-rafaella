@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  background-color: #FFE5B4;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #FFF8DC;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+#adicionar-item {
+  display: none;
+}
+
+#lista-compras ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+#lista-compras ul li {
+  margin-bottom: 0.5rem;
+}
+
+#frutas {
+  color: #FF69B4;
+}
+
+#laticinios {
+  color: #6495ED;
+}
+
+#congelados {
+  color: #20B2AA;
+}
+
+#doces {
+  color: #FFA07A;
+}
+
+#outros {
+  color: #808
